@@ -1,25 +1,35 @@
-import produtos.Produto;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Produto p1 = new Produto();
-        Produto p2 = new Produto();
+        var palpites = new ArrayList<Integer>();
 
-        Scanner ler = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in); // Cria um objeto Scanner
 
-        System.out.println("Digite o preço do produto 1: ");
-        p1.alterarPreco(ler.nextDouble());
+        int numero = (int) (Math.random() * 40 + 1); // Gera um número aleatório entre 1 e 100
 
-        System.out.println("Digite o preço do produto 2: ");
-        p2.alterarPreco(ler.nextDouble());
+        System.out.println("Digite os palpites: "); // Solicita um número ao usuário
 
-        System.out.println("Preço do produto 1: " + p1.preco());
-        System.out.println("Preço do produto 2: " + p2.preco());
+        while (palpites.size() < 20) {
+            var chute = ler.nextInt(); // Lê o número digitado pelo usuário
+            palpites.add(chute);
+        }
 
+        for (var p : palpites) {
+            if (p == numero) {
+                System.out.println("Parabéns, você acertou!"); // Exibe uma mensagem de parabéns
+                System.out.println("Número de tentativas: " + palpites.size()); // Exibe o número de tentativas
+                System.out.println("Número sorteado: " + numero); // Exibe o número sorteado
+                return;
+            }
+        }
+
+        System.out.println("Você perdeu!"); // Exibe uma mensagem de parabéns
+        System.out.println("Número sorteado: " + numero); // Exibe o número sorteado
     }
 
 }
