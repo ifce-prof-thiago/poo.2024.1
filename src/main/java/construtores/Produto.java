@@ -1,5 +1,4 @@
 package construtores;
-
 public class Produto {
     private String nome;
     private Double preco;
@@ -11,14 +10,9 @@ public class Produto {
         this.qtd = qtd;
     }
 
-    public void printThis() {
-        System.out.println(this);
-    }
-
     public void print() {
         System.out.println("Nome: " + this.nome);
         System.out.println("Preço: " + this.preco);
         System.out.println("Quantidade: "+ this.qtd);
     }
-
 }
