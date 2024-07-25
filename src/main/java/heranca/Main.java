@@ -6,16 +6,15 @@ public class Main {
 
         ContaFisica x = new ContaFisica(
                 "001 00897-3",
-                "Marcandra Rabelo",
+                "Alice",
+                "123.456.789-10",
                 1_000_000f
         );
 
-        x.depositar(600);
-        x.sacar(2_000_000);
+        x.depositar(1000);
+        x.sacar(10_000);
 
-        System.out.println(x.getTitular());
-        System.out.println(x.getNumero());
-        System.out.println(x.getSaldo());
+        x.exibirInfos();
 
     }
 

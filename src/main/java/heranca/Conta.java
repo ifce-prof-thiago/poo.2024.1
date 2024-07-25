@@ -31,16 +31,13 @@ public class Conta {
         saldo = saldo - valor;
     }
 
-    public String getNumero() {
-        return numero;
-    }
-
-    public String getTitular() {
-        return titular.toUpperCase();
-    }
-
-    public float getSaldo() {
-        return saldo;
+    public void exibirInfos() {
+        System.out.println("------------------------");
+        System.out.println("TITULAR: " + titular);
+        System.out.println("------------------------");
+        System.out.println("Conta: " + numero);
+        System.out.println("Saldo: " + saldo);
+        System.out.println("------------------------");
     }
 
 }
