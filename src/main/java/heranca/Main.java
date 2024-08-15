@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ContaFisica x = new ContaFisica(
+        Conta x = new ContaJuridica(
                 "001 00897-3",
                 "Alice",
-                "123.456.789-10",
+                "0220229039098-0/0001-90",
                 1_000_000f
         );
 

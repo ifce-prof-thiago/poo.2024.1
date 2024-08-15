@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="957b0e23-3034-46b7-b4fd-84d797efb32e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/msg/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/msg/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/msg/Mensagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/msg/Telegram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/msg/WhatsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/plano/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/plano/Plano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/plano/PlanoBasico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/plano/PlanoPadrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polimorfismo/plano/PlanoPremium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heranca/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heranca/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +72,8 @@
     &quot;Gradle.poo.2024.1 [:Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.poo.2024.1 [:MainMesorregiao.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.poo.2024.1 [:Principal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.poo.2024.1 [:polimorfismo.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.poo.2024.1 [:polimorfismo.plano.Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -85,17 +98,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.heranca.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="poo.2024.1.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.polimorfismo.plano.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="api.Main" />
+      <option name="MAIN_CLASS_NAME" value="polimorfismo.msg.Main" />
       <module name="poo.2024.1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="polimorfismo.msg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,21 +151,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="polimorfismo.plano.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polimorfismo.plano.Main" />
+      <module name="poo.2024.1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="polimorfismo.plano.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.polimorfismo.plano.Main" />
         <item itemvalue="Application.heranca.Main" />
         <item itemvalue="Application.importacao.Main" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
       </set>
     </attachedChunks>
   </component>
@@ -187,6 +211,12 @@
       <workItem from="1721862059597" duration="146000" />
       <workItem from="1721949917519" duration="3064000" />
       <workItem from="1722082309471" duration="16000" />
+      <workItem from="1722553899654" duration="2671000" />
+      <workItem from="1722878456361" duration="11000" />
+      <workItem from="1723158977580" duration="2936000" />
+      <workItem from="1723212494242" duration="8000" />
+      <workItem from="1723241068310" duration="2309000" />
+      <workItem from="1723568824374" duration="40000" />
     </task>
     <servers />
   </component>
